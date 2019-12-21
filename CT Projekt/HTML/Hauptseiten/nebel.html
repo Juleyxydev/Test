@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\..\CSS\startseite.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseiteunten.css">
+<script src="..\..\JavaScript\nebel.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\javascript.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '35vh';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="startseite.html">Startseite</a>
+        <br>   
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="sterne2.html"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" id="active"href="nebel.html">Nebel</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="galaxien.html">Galaxien</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"href="sonstiges.html">Sonstiges</a>
+                 
+</div>
+<br>
+<br>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+  <!--- Überschrift--->
+ 
+  <div id="headline"> 
+    <h1> <div  id="em2"> 
+            <em>N</em>
+            <em>E</em>
+            <em>B</em>
+            <em>E</em>
+            <em>L</em>
+        </div>
+    </h1>
+    </div>
+<div id="Balken"></div>      
+  
+<br><br>
+
+ <!-- Stern/Zusammenfassung-Fenster -->        
+ <div id="bilderdiv" onclick="nebelclick()">      
+ <em style="margin-left: 53vh;display: inline;" id="headline_2"><center>Nebel</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Nebel\horsehead.jpg" alt="NASA">
+ <div id="balken2" style="margin-right: 15vw;"></div>  
+ <p id="text"<center><i> Eine Zusammenfassung </i></center></p>
+ <p id="text" <center>Was versteht man unter einem "Nebel"</center></p>
+ </div> 
+
+ <!-- Alphacentauri-Fenster --> 
+ <div id="bilderdiv2" onclick="orionclick()">      
+    <em style="margin-right: 23vw; display: inline;" id="headline_3_merkur"><center>Orionnebel</center></em>
+    <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\orion.jpg" alt="Michael/Etienne">
+    <div id="balken3"></div>  
+    <p id="text2"<center>Der Emissionsnebel im  <a style="color: aquamarine;"href="../Artikel/Sonstiges/sternbilder.html">Sternbild</a> Orion ist</center></p>
+    <p id="text2" <center>wahrscheinlich der bekannteste Nebel</center></p>
+    </div> 
+
+<!-- Polaris-Fenster -->
+<div id="bilderdiv" onclick="herzclick()">      
+<em style="margin-left: 41.5vh;display: inline;" id="headline_2_venus"><center>Herznebel</center></em>
+<img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Nebel\Herznebel.jpg" alt="ESA/NASA Hubble">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center> Der wunderschöne Emissionsnebel "Herznebel",  </center></p>
+<p id="text" <center>liegt im <a style="color: aquamarine;"href="../Artikel/Sonstiges/sternbilder.html">Sternbild</a> Kassiopeia</center></p>
+</div> 
+
+<!-- Vega-Fenster -->
+<div id="bilderdiv2" onclick="bubbleclick()">      
+ <em style="margin-right: 23.5vw; display: inline;" id="headline_3_erde"><center>Blasennebel</center></em>
+ <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\Nebel\Blasennebel.jpg" alt="ESA/NASA Hubble">
+ <div id="balken3" ></div>  
+ <p id="text2"<center> Der Blasennebel liegt, so wie der <a style="color: aquamarine;"href="../Artikel/Nebel/Herznebel.html">Herznebel</a>,</center></p>
+ <p id="text2" <center>im <a style="color: aquamarine;"href="../Artikel/Sonstiges/sternbilder.html">Sternbild</a> Kassiopeia</center></p>
+</div> 
+
+
+<br><br><br><br><br>
+</body> 
+</html>

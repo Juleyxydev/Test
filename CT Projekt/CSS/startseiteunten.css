@@ -1,0 +1,157 @@
+/* CSS Für die die Fenster, wo das Bild Rechts ist.*/
+#bilder{
+
+	height: 35vh;
+	width: 50vh;
+	float: right; 
+	display: inline;
+}
+#bilderdiv{
+    cursor: pointer;
+	box-sizing: border-box;
+	transition: 2s;
+	height: 35.4vh;
+	border: 0.2vh solid #f1f1f1;
+	margin: 5vh;
+	
+}
+#bilderdiv:hover{
+	
+	opacity: 0.8;
+	background:rgba(255,255,255,0.2);       
+	margin-left: 8%;
+	margin-right: 8%;
+	
+	
+}
+
+  
+#balken2{
+	height: 0.3vh;
+	float: left;
+	margin: 0;
+	background-color: #f1f1f1;
+	margin-left: 59vh;
+	width: 10%;	
+	float: left;
+	height: 0.4vh;
+}
+	
+#balken2:hover{
+	opacity: 0.8;
+}
+#text{
+
+	font-family: 'Josefin Sans', sans-serif;
+	color: #f1f1f1;
+	float: left;
+	margin: 0;
+	margin-top: 1%;
+	margin-left: 18vh;
+	width: 55%;
+	font-size: 4vh;
+	font-weight: 570;
+	text-align: center;
+		
+}
+#headline_2{ 
+	
+	float: left;
+	margin: 0;
+	margin-top: 1%;
+	margin-left: 50vh;
+	font-size: 10vh;
+	font-weight: 570;
+	text-align: center;
+}
+#headline_2_venus{
+	float: left;
+	margin: 0;
+	margin-top: 1%;
+	margin-left: 47.5vh;
+	font-size: 10vh;
+	font-weight: 570;
+	text-align: center;
+}
+
+/* CSS Für die die Fenster, wo das Bild Links ist.*/
+
+#bilder2{
+	height: 35vh;
+	width: 50vh;
+	float: left; 
+	display: inline;
+}
+		
+#bilderdiv2{
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: 2s;
+	height: 35.4vh;
+	border: 0.2vh solid #f1f1f1;
+	margin: 5vh;
+}
+#bilderdiv2:hover{
+		
+	opacity: 0.8;
+	background:rgba(255,255,255,0.2);  
+	margin: 0;      
+	margin-left: 15vh;
+	margin-right: 15vh;		
+}
+#balken3{
+	height: 0.3vh;
+	float: right;
+	margin: 0;
+	background-color: #f1f1f1;
+	margin-right: 61.5vh;
+	width: 10%;	
+	float: right;
+	height: 0.4vh;
+}
+		
+#balken3:hover{
+	opacity: 0.8;
+		
+}
+#text2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #f1f1f1;
+	float: right;
+	margin: 0;
+	margin-top: 1%;
+	margin-right: 18vh;
+	width: 55%;
+	font-size: 4vh;
+	font-weight: 570;
+	text-align: center;
+		
+}
+#headline_3{ 
+	
+	float: right;
+	margin: 0;
+	margin-top: 1%;
+	margin-right: 50vh;
+	font-size: 10vh;
+	font-weight: 570;
+	text-align: center;
+}
+#headline_3_erde{
+	float: right;
+	margin: 0;
+	margin-top: 1%;
+	margin-right: 63.5vh;
+	font-size: 10vh;
+	font-weight: 570;
+	text-align: center;
+}
+#headline_3_merkur{
+	float: right;
+	margin: 0;
+	margin-top: 1%;
+	margin-right: 60.5vh;
+	font-size: 10vh;
+	font-weight: 570;
+	text-align: center;
+}

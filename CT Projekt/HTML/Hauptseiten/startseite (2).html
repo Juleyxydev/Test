@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseite.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseiteunten.css">
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\JavaScript\startseite.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '350px';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+        <a style="font-size: 45px; margin-bottom: 2.1vh;" id="active"href="#">Startseite</a>
+        <br>   
+        <a style="font-size: 45px; margin-bottom: 2.1vh" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 45px; margin-bottom: 2.1vh;" href="#"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 45px; margin-bottom: 2.1vh;" href="#">Nebel</a>
+     
+        <br>
+        <a style="font-size: 45px; margin-bottom: 2.1vh;" href="#">Galaxien</a>
+    
+        <br>
+        <a style="font-size: 45px; margin-bottom: 2.1vh;" href="#">Universum</a>
+     
+        <br>
+        <a style="font-size: 45px; margin-bottom: 2.1vh;"href="#">Sonstiges</a>
+
+                 
+</div>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+<!--- Überschrift--->
+<div id="headline"> 
+<h1> 
+        <em id="eins">A</em>
+        <em>S</em>
+        <em>T</em>
+        <em>R</em>
+        <em>O</em>
+        <em>N</em>
+</h1>
+</div>
+ <br>
+<!-- Der Balken, nach dem Scroll Element-->
+<div id="Balken"></div>      
+  
+<br><br>
+<!-- Bacgkround-picture: ich, 9.11.2019-->
+ <!-- Mond-Fenster -->        
+ <div id="bilderdiv" onclick="mondclick()">      
+ <em style="display: inline;" id="headline_2"><center>Monde</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\mond.jpg" alt="Ich, 19.10.2019">
+ <div id="balken2"></div>  
+ <p id="text"<center> Monde sind Objekte, die  um <a style="color: aquamarine;"href="..\Artikel\planeten.html">Planeten</a> kreisen</center></p>
+ <p id="text" <center>Ein Planet kann mehrere Monde besitzen</center></p>
+ </div> 
+
+ <!-- Planeten-Fenster --> 
+<div id="bilderdiv2" onclick="planetclick()">      
+<em style="display: inline;" id="headline_3"><center>Planeten</center></em>
+<img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\erde.png" alt="Apollo 11 (NASA) / 1972">
+<div id="balken3"></div>  
+<p id="text2"<center> Planeten sind Objekte, welche um <a style="color: aquamarine;"href="..\Artikel\sterne.html" target="">Sterne</a> kreisen</center></p>
+<p id="text2" <center>Kleinere Planeten nennt man <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\sonstiges_sonnensystem.html">Zwergplaneten</a></center></p>
+</div> 
+
+<!-- Nebel-Fenster -->
+<div id="bilderdiv" onclick="sonnenclick()">      
+<em style="display: inline;" id="headline_2"><center>Sterne</center></em>
+<img id="bilder" style="display: inline;" src="..\..\Bilder für die website\stern.jpg" alt="Ich, 28.10.2019, Mein Garten">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center> Sterne sind massereich und bestehen </center></p>
+<p id="text" <center>aus Gas und Staub, wie die <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonne</a></center></p>
+</div> 
+
+<div id="bilderdiv2" onclick="nebelclick()">      
+<em style="display: inline;" id="headline_3"><center>Nebel</center></em>
+<img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\orion.jpg" alt="Michael D. & Etienne HED, 28.09.2019">
+<div id="balken3" style="margin-right: 54vh;"></div>  
+<p id="text2"<center> Ein Nebel besteht aus Gas & Staub. </center></p>
+<p id="text2"<center>Einer der populärsten Nebel ist der <a style="color: aquamarine;"href="..\Artikel\Orionnebel.html">Orionnebel</a></center></p>
+</div> 
+
+<!-- Galaxien-Fenster -->
+<div id="bilderdiv" onclick="galaxienclick()">      
+ <em style="display: inline;" id="headline_2"><center>Galaxien</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\andromeda.jpg" alt="Michael D. & Etienne HED, 21.09.2019">
+ <div id="balken2"></div>  
+ <p id="text"<center> Eine Galaxie ist eine Ansammlung von <a style="color: aquamarine;"href="..\Artikel\sterne.html">Sternen</a>,</center></p>
+ <p id="text" <center><a style="color: aquamarine;"href="../Artikel/planeten.html">Planeten</a> und <a style="color: aquamarine;"href="nebel.html">Nebeln</a> sowie <a style="color: aquamarine;"href="sonstiges.html">sonstige Objekte</a></center></p>
+</div> 
+
+<!-- Universum-Fenster -->
+<div id="bilderdiv2" onclick="universumclick()">      
+<em style="display: inline;" id="headline_3"><center>Universum</center></em>
+<img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\deepfield.jpg", alt="Hubble Teleskop / NASA & ESA, 3. September 2003 bis 16. Januar 2004">
+<div id="balken3" style="margin-right: 64vh;"></div>  
+<p id="text2"<center> Das Universum ist Raum, Zeit & ihren <a style="color: aquamarine;"href="#">Inhalten</a></center></p>
+<p id="text2" <center>Es ist ungefähr 13,8 Milliarden Jahre alt</center></p>
+</div> 
+
+ <!-- Sonstiges-Fenster --> 
+ <div id="bilderdiv" onclick="sonstigesclick()">      
+<em style="display: inline;" id="headline_2"><center>Sonstiges</center></em>
+<img id="bilder" style="display: inline;" src="..\..\Bilder für die website\plejaden.JPG" alt="Ich, 11.10.2019">
+<div id="balken2"></div>  
+<p id="text"<center> Sonstige Dinge wie z.B. die <a style="color: aquamarine;"href="https://de.wikipedia.org/wiki/Plejaden">Plejaden</a>, </center></p>
+<p id="text" <center><a style="color: aquamarine;"href="..\Artikel\Sternbilder.html">Sternbilder</a> und <a style="color: aquamarine;"href="https://de.wikipedia.org/wiki/Satellit_%28Raumfahrt%29">Satelliten</a></center></p>
+ </div> 
+
+<br><br><br><br>
+</body> 
+</html>

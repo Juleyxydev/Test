@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\..\CSS\startseite.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseiteunten.css">
+<script src="..\..\JavaScript\universum.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\javascript.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '35vh';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="startseite.html">Startseite</a>
+        <br>   
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="sterne2.html"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="nebel.html">Nebel</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" id="active"  href="galaxien.html">Galaxien</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"href="sonstiges.html">Sonstiges</a>
+                 
+</div>
+<br>
+<br>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+  <!--- Überschrift--->
+ 
+  <div id="headline"> 
+    <h1 style="right: 10%"> 
+            <em style="right: 17%" >G</em>
+            <em style="right: 17%" >A</em>
+            <em style="right: 17%" >L</em>
+            <em style="right: 17%" >A</em>
+            <em style="right: 16%">X</em>
+            <em style="right: 16%">I</em>
+            <em style="right: 16%">E</em>
+            <em style="right: 16%">N</em>
+       
+    </h1>
+    </div>
+<div id="Balken"></div>      
+  
+<br><br>
+
+ <!-- Stern/Zusammenfassung-Fenster -->        
+ <div id="bilderdiv" onclick="galaxclick()">      
+ <em style="display: inline;" id="headline_2"><center>Galaxie</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Galaxien\andromeda2.jpg" alt="Adam Evans">
+ <div id="balken2" style="margin-right: 15vw;"></div>  
+ <p id="text"<center><i> Eine Zusammenfassung </i></center></p>
+ <p id="text" <center>Was ist eine Galaxie?</center></p>
+ </div> 
+
+ <!-- Alphacentauri-Fenster --> 
+ <div id="bilderdiv2" onclick="milchclick()">      
+    <em style="margin-right: 23vw; display: inline;" id="headline_3_merkur"><center>Milchstraße</center></em>
+    <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\Galaxien\milkyway.jpg" alt="Unbekannt">
+    <div id="balken3"></div>  
+    <p id="text2"<center>Die <a style="color: aquamarine;"href="..\Artikel\Galaxien\galaxienz.html">Galaxie</a>, in welcher  </center></p>
+    <p id="text2" <center>alles den Menschen bekannte Leben lebt.</center></p>
+    </div> 
+
+<!-- Polaris-Fenster -->
+<div id="bilderdiv" onclick="andromedaclick()">      
+<em style="right: 8.5vh;display: inline;" id="headline_2_venus"><center>Andromeda</center></em>
+<img id="bilder" style="margin-right: 0;display: inline;" src="..\..\Bilder für die website\andromeda.jpg" alt="Michael/Etienne">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center>Andromeda ist die bekannteste <a style="color: aquamarine;"href="..\Artikel\Galaxien\galaxienz.html">Galaxie</a>, </center></p>
+<p id="text" <center> da sie unsere Nachbargalaxie ist.</center></p>
+</div> 
+
+<!-- Vega-Fenster -->
+<div id="bilderdiv2" onclick="dreiecksclick()">      
+ <em style="margin-right: 20vw; display: inline;" id="headline_3_erde"><center>Dreiecksnebel</center></em>
+ <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\Galaxien\Dreiecksnebel.jpg" alt="Unbekannt">
+ <div id="balken3" ></div>  
+ <p id="text2"<center>Der Dreiecksnebel ist neben <a style="color: aquamarine;" href="..\Artikel\Galaxien\andromeda.html">Andromeda</a></center></p>
+ <p id="text2" <center>die hellste <a style="color: aquamarine;"href="..\Artikel\Galaxien\galaxienz.html">Galaxie</a> am Nachthimmel.</center></p>
+</div> 
+
+
+<br><br><br><br><br>
+</body> 
+</html>

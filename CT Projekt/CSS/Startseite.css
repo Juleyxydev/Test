@@ -1,0 +1,191 @@
+html{
+  scrollbar-width: none; /* Scrollbar weg-firefox */
+  scroll-behavior: smooth;  /*Macht die Scroll-Animation schöner */
+    
+    
+}
+body{
+    margin: 0;
+    margin-right: 0;
+    background-image: url('Hintergrund.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*-> Nur die Schrift auf dem Vordergrund wird gescrollt. Der Hintergrund bleibt gleich.  */
+
+ } 
+
+
+ #Balken{
+    height: 0.3vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 95vh;
+    background-color: #f1f1f1;
+    
+    
+}
+#headline{
+    margin: 0;
+    height: 85%;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 45.8%;
+    margin-top: -10vh;
+    margin-left: -20vh;
+    height: 20vh;
+    justify-content: center;
+    align-items: flex-end;
+}  
+  
+h1 {
+    position: relative;
+}
+
+  h1::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -26vh;
+    left: 29vh;
+    width: 62vh;
+    height: 62vh;
+    border-radius: 50%;
+    border: 1.3vmin solid currentColor;
+    box-sizing: border-box;
+    color: #f1f1f1;
+  }
+em{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14.5vh;
+    position: relative;
+    font-style: normal;
+    text-align: center;
+    color: #f1f1f1;
+}
+#em2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14.5vh;
+  position: relative;
+  font-style: normal;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+#menu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:4vh;
+	  margin: 1vh;
+    color: #f1f1f1;
+    top: 0%;
+    z-index: 1;
+    position: fixed;
+    cursor:pointer;
+
+}
+#active{
+  color: #ffffff;
+}
+
+.sidenav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:3.5vh;
+	  scrollbar-width: none;
+    cursor: pointer;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6vh;
+    
+  }
+  
+  .sidenav a {
+    padding: 0.8vh 0.8vh 0.8vh 3.2vh;
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5vh;
+    font-size: 7vh;
+    margin-left: 5vh;
+  }
+  
+  @media screen and (max-height: 45vh) {
+    .sidenav {padding-top: 1.5vh;}
+    .sidenav a {font-size: 1.8vh;}
+  }
+  .scroll a {
+    position: absolute;
+    bottom: 2vh;
+    left: 47.7%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 2.8vh 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  #scrollteil a{
+    padding-top: 6vh;
+
+  }
+  #scrollteil a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4.6vh;
+    height: 4.6vh;
+    margin-left: -2.3vh;
+    border: 0.1vh solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  #scrollteil a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 1.6vh;
+    height: 1.6vh;
+    margin: -1.2vh 0 0 -0.8vh;
+    border-left: 0.1vh solid #fff;
+    border-bottom: 0.1vh solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3vw;
+  left: 2vw;
+  position: relative;
+  text-align: left;
+  color: #f1f1f1;
+    
+} 
+

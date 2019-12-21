@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\..\CSS\startseite.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseiteunten.css">
+<script src="..\..\JavaScript\star.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\javascript.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '35vh';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="startseite.html">Startseite</a>
+        <br>   
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"id="active"  href="sterne2.html"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="nebel.html">Nebel</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="galaxien.html">Galaxien</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"href="sonstiges.html">Sonstiges</a>
+                 
+</div>
+<br>
+<br>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+  <!--- Überschrift--->
+ 
+  <div id="headline"> 
+    <h1> 
+            <em id="eins">S</em>
+            <em>T</em>
+            <em>E</em>
+            <em style="margin-left: 0.6vh;">R</em>
+            <em>N</em>
+            <em>E</em>
+    </h1>
+    </div>
+<div id="Balken"></div>      
+  
+<br><br>
+
+ <!-- Stern/Zusammenfassung-Fenster -->        
+ <div id="bilderdiv" onclick="sternclick()">      
+ <em style="display: inline;" id="headline_2"><center>Sterne</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\stern.jpg" alt="ich">
+ <div id="balken2" style="margin-right: 15vw;"></div>  
+ <p id="text"<center><i> Eine Zusammenfassung </i></center></p>
+ <p id="text" <center>Was ist ein Stern (wie die <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonne</a>) überhaupt?</center></p>
+ </div> 
+
+ <!-- Alphacentauri-Fenster --> 
+ <div id="bilderdiv2" onclick="alphaceclick()">      
+    <em style="margin-right: 20vw; display: inline;" id="headline_3_merkur"><center>Alpha Centauri</center></em>
+    <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\Sterne\alphacentauri.jpg" alt="Unbekannt">
+    <div id="balken3"></div>  
+    <p id="text2"<center>Alpha Centauri ist der nächste Stern von der</center></p>
+    <p id="text2" <center><a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonne</a> aus gesehen.</a></center></p>
+    </div> 
+
+<!-- Polaris-Fenster -->
+<div id="bilderdiv" onclick="polarisclick()">      
+<em style="display: inline;" id="headline_2_venus"><center>Polaris</center></em>
+<img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Sterne\polaris.jpg" alt="Greg Paker">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center> Der Polaris ist so groß, dass er</center></p>
+<p id="text" <center>(relativ) genau 100 <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonnenradien</a> hat.</center></p>
+</div> 
+
+<!-- Vega-Fenster -->
+<div id="bilderdiv2" onclick="wegaclick()">      
+ <em style="display: inline;" id="headline_3_erde"><center>Vega</center></em>
+ <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\Sterne\Vega.jpg" alt="Akira Fujii">
+ <div id="balken3" ></div>  
+ <p id="text2"<center> Vega oder auch Wega ist der hellste <a style="color: aquamarine;"href="../Artikel/Sterne.html">Stern</a></center></p>
+ <p id="text2" <center>des nördlichen Nachthimmels.</center></p>
+</div> 
+
+
+<br><br><br><br><br>
+</body> 
+</html>

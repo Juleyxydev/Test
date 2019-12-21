@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Sonnensystem.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\sonnensystemunten.css">
+<script src="..\..\JavaScript\sonnensystem.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\javascript.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '35vh';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="startseite.html">Startseite</a>
+        <br>   
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh" id="active" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="sterne2.html"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="nebel.html">Nebel</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"  href="galaxien.html">Galaxien</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;"href="sonstiges.html">Sonstiges</a>
+                 
+</div>
+<br>
+<br>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+  <!--- Überschrift--->
+  <div id="headline"> 
+    <h1> 
+      <em style="right: 50%">S</em>
+      <em style="right: 50%">O</em>
+      <em style="right: 50%">N</em>
+      <em style="right: 50%">N</em>
+      <em style="right: 50%">E</em>
+      <em style="right: 50%">N</em>
+      <em style="right: 50%">S</em>
+      <em style="right: 50%">Y</em>
+      <em style="right: 50%">STEM</em>
+  
+
+      
+    </h1>
+
+
+
+
+</h1>
+</div>
+<!-- Der Balken, nach dem Scroll Element-->
+<div id="Balken"></div>      
+  
+<br><br>
+
+ <!-- Sonne-Fenster -->        
+ <div id="bilderdiv" onclick="sonnenclick()">      
+ <em style="display: inline;" id="headline_2"><center>Sonne</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Sonne.jpg" alt="NASA">
+ <div id="balken2"></div>  
+ <p id="text"<center> Die Sonne ist ein <a style="color: aquamarine;"href="..\Artikel\sterne.html">Stern</a></center></p>
+ <p id="text" <center>und ist der Mittelpunkt unseres Sonnensystems</center></p>
+ </div> 
+
+ <!-- Merkur-Fenster --> 
+ <div id="bilderdiv2" onclick="merkurclick()">      
+<em style="display: inline;" id="headline_3_merkur"><center>Merkur</center></em>
+<img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\merkur.jpg" alt="NASA">
+<div id="balken3"></div>  
+<p id="text2"<center>Merkur ist der <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonne</a> am nähsten, aber auch</center></p>
+<p id="text2" <center>der kleinste Planet im Sonnensystem.</a></center></p>
+</div> 
+
+<!-- Venus-Fenster -->
+<div id="bilderdiv" onclick="venusclick()">      
+<em style="display: inline;" id="headline_2_venus"><center>Venus</center></em>
+<img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Venus.jpg" alt="NASA/JPL">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center> Die Venus ist der <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Erde.html">Erdähnlichste</a> Planet.</center></p>
+<p id="text" <center>Sie ist nur minimal kleiner wie die Erde</center></p>
+</div> 
+
+<!-- Erde-Fenster -->
+<div id="bilderdiv2" onclick="erdeclick()">      
+ <em style="display: inline;" id="headline_3_erde"><center>Erde</center></em>
+ <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\erde.png" alt="Apollo 11 (NASA) / 1972">
+ <div id="balken3" ></div>  
+ <p id="text2"<center> Die Erde ist unser Heimatplanet und der</center></p>
+ <p id="text2" <center>dritte Planet von der <a style="color: aquamarine;"href="..\Artikel\Sonnensystem\Sonne.html">Sonne</a> aus.</center></p>
+</div> 
+<div id="bilderdiv" onclick="marsclick()">      
+  <em style="display: inline;" id="headline_2"><center>Mars</center></em>
+  <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\Mars.JPG" alt="NASA">
+  <div id="balken2"></div>  
+  <p id="text"<center>Mars ist der letzte Planet vor den <a style="color: aquamarine;"href="../Artikel/Sonnensystem/Gasplaneten.html">Gasplaneten</a>, </center></p>
+  <p id="text" <center>als auch Ziel für eine bemannte Raummission.</center></p>
+</div> 
+
+<!-- Gasplaneten-Fenster -->
+<div id="bilderdiv2" onclick="gasplanetenclick()">      
+<em style="display: inline; " id="headline_3_gasplaneten"><center>Gasplaneten</center></em>
+<img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\jupiter.jpg" alt="ESA, 25 February 2017">
+<div id="balken3" style="margin-right: 64vh;"></div>  
+<p id="text2"<center>Die 4 Gasplaneten sind die größten <a style="color: aquamarine;"href="..\Artikel\planeten.html">Planeten</a></center></p>
+<p id="text2" <center>des Sonnensystems.</center></p>
+</div>
+
+ <!-- Sonstiges-Fenster --> 
+
+<div id="bilderdiv" onclick="sonstigesuniversumclick()">      
+<em style="display: inline;" id="headline_2_sonstiges"><center>Sonstiges</center></em>
+<img id="bilder" style="display: inline; margin-right: 0;" src="..\..\Bilder für die website\Pluto.JPG" alt="NASA, New Horizons">
+<div id="balken2"></div>  
+<p id="text"<center> Sonstige Dinge wie z.B. <a style="color: aquamarine;"href="..\Artikel\planeten.html#zp" target="_blank">Zwergplaneten</a>, </center></p>
+<p id="text" <center><a style="color: aquamarine;"href="../Artikel/Sonnensystem/sonstiges_sonnensystem.html#ast">Asteroiden</a> oder die <a style="color: aquamarine;"href="../Artikel/Sonnensystem/sonstiges_sonnensystem.html#iss">ISS</a></center></p>
+</div> 
+ </div> 
+
+<br><br><br><br><br>
+</body> 
+</html>

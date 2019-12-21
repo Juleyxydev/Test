@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\..\CSS\startseite.css">
+<link rel="stylesheet" type="text/css" href="..\..\CSS\Startseiteunten.css">
+<script src="..\..\JavaScript\sonstiges.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="..\..\javascript.js"></script>
+    <title>- Astron -</title>
+</head>
+<body>
+<!-- Navigationsleiste -->
+<span id="menu" onclick="document.getElementById('mySidenav').style.width = '35vh';">&#9776; Menü</span>
+<div id="mySidenav" class="sidenav">
+    
+        <a href="javascript:void(0)" class="closebtn" onclick=" document.getElementById('mySidenav').style.width = '0'">&times;</a>
+        
+
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="startseite.html">Startseite</a>
+        <br>   
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh" href="unser_sonnensystem.html">Unser Sonnensystem</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="sterne2.html"> Sterne</a>
+      
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" href="nebel.html">Nebel</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" ref="galaxien.html">Galaxien</a>
+     
+        <br>
+        <a style="font-size: 4.8vh; margin-bottom: 2.8vh;" id="active"  href="sonstiges.html">Sonstiges</a>
+                 
+</div>
+<br>
+<br>
+<!-- Scroll-Element -->
+<section id="scrollteil" class="scroll">
+        <a href="#Balken"><span></span>Scroll</a>
+    
+      </section>
+      </div>
+  <!--- Überschrift--->
+ 
+  <div id="headline"> 
+    <h1 style="right: 10%"> 
+            <em style="right: 17%" >S</em>
+            <em style="right: 17%" >O</em>
+            <em style="right: 17%" >N</em>
+            <em style="right: 17%" >S</em>
+            <em style="right: 16%">T</em>
+            <em style="right: 16%">I</em>
+            <em style="right: 16%">G</em>
+            <em style="right: 16%">E</em>
+            <em style="right: 16%">S</em>
+       
+    </h1>
+    </div>
+<div id="Balken"></div>      
+  
+<br><br>
+
+ <!-- Schwarzes Loch-Fenster -->        
+ <div id="bilderdiv" onclick="blackholeclick()">      
+ <em style="margin-left: 15vw;display: inline;" id="headline_2"><center>Schwarze Löcher</center></em>
+ <img id="bilder" style="display: inline;" src="..\..\Bilder für die website\sonstiges\blackhole.jpg" alt="Simulation eines Schwarzen Lochs, unbekannt">
+ <div id="balken2" style="margin-right: 15vw;"></div>  
+ <p id="text"<center>Schwarze Löcher sind die Rätsel</center></p>
+ <p id="text" <center>des Universums</center></p>
+ </div> 
+
+ <!-- Neutronensterne-Fenster --> 
+ <div id="bilderdiv2" onclick="neuclick()">      
+    <em style="margin-right: 17vw; display: inline;" id="headline_3_merkur"><center>Neutronensterne</center></em>
+    <img id="bilder2" style="display: inline;" src="..\..\Bilder für die website\sonstiges\Neutronenstern.jpg" alt="Darstellung, NASA">
+    <div id="balken3"></div>  
+    <p id="text2"<center>Die überreste von <a style="color: aquamarine;"href="..\Artikel\sterne.html">Sternen</a> </center></p>
+    <p id="text2" <center>mit großen Massen</center></p>
+    </div> 
+
+<!-- Sternbilder-Fenster -->
+<div id="bilderdiv" onclick="sternbilderclick()">      
+<em style="right: 8.5vh;display: inline;" id="headline_2_venus"><center>Sternbilder</center></em>
+<img id="bilder" style="margin-right: 0;display: inline;" src="..\..\Bilder für die website\sonstiges\sternbilder.jpg" alt="Unbekannt">
+<div id="balken2" style="margin-left: 57vh;"></div>  
+<p id="text"<center>Konstellationen von <a style="color: aquamarine;"href="..\Artikel\sterne.html">Sternen</a> an</center></p>
+<p id="text" <center>unserem Nachthimmel</center></p>
+</div> 
+
+<br><br><br><br><br>
+</body> 
+</html>
